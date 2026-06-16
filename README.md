@@ -4,6 +4,8 @@
 - Autumn Stephens
 - Catriona Murray
 - Pat Wachiraphan
+- Amelia De Herrera-Schnering
+
 ### Brief Overview
 We will be using this GitHub repository to learn about and practice collaborative coding and continuous integration!
 
