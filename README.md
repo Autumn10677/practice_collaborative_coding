@@ -1,6 +1,7 @@
 # 🖥️ Collaborative Coding Practice 🖥️
 
 ### List of Contributors:
+- Autumn Stephens
 
 ### Brief Overview
 We will be using this GitHub repository to learn about and practice collaborative coding and continuous integration!
