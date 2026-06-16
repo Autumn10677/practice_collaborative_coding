@@ -3,7 +3,7 @@
 ### List of Contributors:
 - Autumn Stephens
 - Catriona Murray
-
+- Pat Wachiraphan
 ### Brief Overview
 We will be using this GitHub repository to learn about and practice collaborative coding and continuous integration!
 
