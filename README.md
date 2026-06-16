@@ -5,6 +5,7 @@
 - Catriona Murray
 - Pat Wachiraphan
 - Amelia De Herrera-Schnering
+- Valerie Arriero
 
 ### Brief Overview
 We will be using this GitHub repository to learn about and practice collaborative coding and continuous integration!
