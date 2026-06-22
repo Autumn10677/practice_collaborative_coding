@@ -1,7 +1,8 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-x_values = np.arange(0, 10, 1)
+# Plots the x^2 from -1 to 1
+x_values = np.arange(-1, 1, 0.5)
 y_values = x_values**2
 
 plt.plot(x_values, y_values)
