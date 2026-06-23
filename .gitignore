@@ -1,0 +1,12 @@
+# Hopefully catches common computer files
+.vscode
+.ipynb_checkpoints
+.pytest_cache/
+.DS_Store
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# C extensions
+*.so
