@@ -11,4 +11,4 @@ def mu(x, y):
 
 
 def di(x, y):
-    return x / y 
+    return x / y
