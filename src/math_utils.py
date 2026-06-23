@@ -1,14 +1,14 @@
-def ad(x, y):
+def add(x, y):
     return x + y
 
 
-def su(x, y):
+def subtract(x, y):
     return x - y
 
 
-def mu(x, y):
+def multiply(x, y):
     return x * y
 
 
-def di(x, y):
+def divide(x, y):
     return x / y
