@@ -8,3 +8,12 @@ y_values = x_values**2
 # Autumn made a change
 plt.plot(x_values, y_values)
 plt.show()
+
+# Zach made a change too
+print(r"""
+               O  o
+          _\_   o
+>('>   \\/  o\ .
+       //\___=
+          ''
+""")
