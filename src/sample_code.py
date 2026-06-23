@@ -9,6 +9,8 @@ y_values = x_values**2
 plt.plot(x_values, y_values)
 plt.show()
 
+# Pat wants to make changes
+
 # Zach made a change too
 print(r"""
                O  o
