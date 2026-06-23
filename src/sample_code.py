@@ -5,5 +5,6 @@ import matplotlib.pyplot as plt
 x_values = np.arange(-1, 1, 0.5)
 y_values = x_values**2
 
+# Autumn made a change
 plt.plot(x_values, y_values)
 plt.show()
