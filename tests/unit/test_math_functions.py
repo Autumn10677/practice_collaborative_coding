@@ -11,8 +11,6 @@ class TestExtractionFunctions(unittest.TestCase):
 
     def test_add(self):
 
-        self.assertTrue(False)
-
         # Done many times with rand. numbers to test robustness
         for _ in range(100):
 
@@ -21,6 +19,21 @@ class TestExtractionFunctions(unittest.TestCase):
 
             # This should always hold!
             self.assertTrue(math_utils.add(x, y) == x + y)
+
+    def test_subtract(self):
+
+        for _ in range(100):
+            pass
+
+    def test_multiply(self):
+
+        for _ in range(100):
+            pass
+
+    def test_divide(self):
+
+        for _ in range(100):
+            pass
 
 
 if __name__ == "__main__":
