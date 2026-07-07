@@ -47,8 +47,10 @@ class TestExtractionFunctions(unittest.TestCase):
             # Test that a number divided by 1 is always itself:
             self.assertTrue(math_utils.divide(x, 1) == x)
 
-            # Test that a zero divided by anything is always 0:
-            self.assertTrue(math_utils.divide(0, y) == 0)
+            # Test that zero divided by anything is always 0:
+            if y != 0:
+                # should always hold, but just in case we check that y != 0 first:
+                self.assertTrue(math_utils.divide(0, y) == 0)
 
             # Test that if x < y then x / y < 1:
             if x < y:
