@@ -41,21 +41,20 @@ class TestExtractionFunctions(unittest.TestCase):
             # This should always hold!
             self.assertTrue(math_utils.divide(x, y) == x / y)
 
+            # Test that a number divided by itself is always 1:
+            self.assertTrue(math_utils.divide(x, x) == 1)
+
             # Test that if x < y then x / y < 1:
             if x < y:
                 self.assertTrue(math_utils.divide(x, y) < 1)
             else:
                 self.assertTrue(math_utils.divide(x, y) >= 1)
 
-
             # Test that a number divided by 1 is always itself:
             x = np.random.uniform(1, 100, 1)
-            y = 1
+            self.assertTrue(math_utils.divide(x, 1) == x)
 
-            self.assertTrue(math_utils.divide(x, y) == x)
-
-            # Test that a number divided by itself is always 1:
-            self.assertTrue(math_utils.divide(x, x) == 1)
+            
 
 
 
