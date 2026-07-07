@@ -54,6 +54,9 @@ class TestExtractionFunctions(unittest.TestCase):
 
             self.assertTrue(math_utils.divide(x, y) == x)
 
+            # Test that a number divided by itself is always 1:
+            self.assertTrue(math_utils.divide(x, x) == 1)
+
 
 
 if __name__ == "__main__":
