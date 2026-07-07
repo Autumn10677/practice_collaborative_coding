@@ -7,7 +7,7 @@ on:
     branches: [main]
 
 jobs:
-  core-style-checks:
+  math-utils-unit-tests:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
@@ -25,3 +25,6 @@ jobs:
     - name: Test 'math_utils.py'
       run: |
         python tests/unit/test_math_functions.py
+
+
+
