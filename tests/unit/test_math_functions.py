@@ -21,9 +21,15 @@ class TestExtractionFunctions(unittest.TestCase):
             self.assertTrue(math_utils.add(x, y) == x + y)
 
     def test_subtract(self):
-
+        
+       # Done many times with rand. numbers to test robustness
         for _ in range(100):
-            pass
+
+            # Generates two random numbers bewteen 0 and 1
+            x, y = np.random.uniform(0, 1, 2)
+
+            # This should always hold!
+            self.assertTrue(math_utils.subtract(x, y) == x - y)
 
     def test_multiply(self):
 
